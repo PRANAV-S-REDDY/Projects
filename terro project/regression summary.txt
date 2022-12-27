@@ -1,0 +1,48 @@
+R squared. This is r2, the Coefficient of Determination.  it is the sum of the squared deviations of the original data from the mean. R Square signifies the Coefficient of Determination, which shows the goodness of fit. It shows how many points fall on the regression line. In our example, the value of R square is 0.96, which is an excellent fit. In other words, 96% of the dependent variables (y-values) are explained by the independent variables (x-values).
+In our example, R2 is 0.91 (rounded to 2 digits), which is fairy good. It means that 91% of our values fit the regression analysis model. In other words, 91% of the dependent variables (y-values) are explained by the independent variables (x-values). Generally, R Squared of 95% or more is considered a good fit.
+
+
+
+
+1.	Adjusted R square. The adjusted R-square adjusts for the number of terms in a model. You’ll want to use this instead of #2 if you have more than one x variable.
+Adjusted R Square is the modified version of R square that adjusts for predictors that are not significant to the regression model
+
+2.	Standard Error of the regression: An estimate of the standard deviation of the error μ. This is not the same as the standard error in descriptive statistics! The standard error of the regression is the precision that the regression coefficient is measured; if the coefficient is large compared to the standard error, then the coefficient is probably different from 0.
+Standard Error is another goodness-of-fit measure that shows the precision of your regression analysis.
+
+
+
+3.	Observations. Number of observations in the sample.
+
+ANOVA
+ANOVA stands for Analysis of Variance. It gives information about the levels of variability within your regression model.
+•	Df is the number of degrees of freedom associated with the sources of variance.
+•	SS is the sum of squares. The smaller the Residual SS viz a viz the Total SS, the better the fitment of your model with the data.
+•	MS is the mean square.
+•	F is the F statistic or F-test for the null hypothesis. It is very effectively used to test the overall model significance.
+•	Significance F is the P-value of F.
+The Significance F value gives an idea of how reliable (statistically significant) your results are. If Significance F is less than 0.05 (5%), your model is OK. If it is greater than 0.05, you'd probably better choose another independent variable
+1.	SS = Sum of Squares.
+2.	Regression MS = Regression SS / Regression degrees of freedom.
+3.	Residual MS = mean squared error (Residual SS / Residual degrees of freedom).
+4.	F: Overall F test for the null hypothesis.
+5.	Significance F: The significance associated P-Value.
+
+
+
+
+
+The columns are:
+1.	Coefficient: Gives you the least squares estimate.
+2.	Standard Error: the least squares estimate of the standard error.
+3.	T Statistic: The T Statistic for the null hypothesis vs. the alternate hypothesis.
+4.	P Value: Gives you the p-value for the hypothesis test.
+5.	Lower 95%: The lower boundary for the confidence interval.
+6.	Upper 95%: The upper boundary for the confidence interval.
+The most useful part of this section is that it gives you the linear regression equation:
+y = mx + b.
+y = slope * x + intercept.
+For the above table, the equation would be approximately:
+y = 3.14 – 0.65X1 + 0.024X2.
+
+
